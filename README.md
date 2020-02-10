@@ -119,11 +119,11 @@ Write a conditional statement that...
 8.  Write your javascript solution below
 ```js
 for (let x = 0; x <= 100; x++) {
-    if (x % 3 == 0) {
+    if (x % 3 == 0 && x % 5 == 0) {
         console.log("Fizz");
     } else if (x % 5 == 0) {
         console.log("Buzz");
-    } else if (x % 3 == 0 && x % 5 == 0) {
+    } else if (x % 3 == 0) {
         console.log("FizzBuzz");
     } else {
         console.log(x);
@@ -134,8 +134,8 @@ for (let x = 0; x <= 100; x++) {
 #### BONUS
 9.  Research a [loop](https://javascript.info/while-for) so that your condition runs on every number from 0 to 100
 ```js
-for (let x = 0; x <= 100; x++){
-  console.log(x)
+for (let x = 1; x <= 100; x++){
+  console.log('FizzBuzz')
 }
 ```
 10.  Research a [function](https://javascript.info/function-basics) so that your condition runs on every number from 0 to whatever number is passed into the function
@@ -143,11 +143,11 @@ for (let x = 0; x <= 100; x++){
 const FizzBuzz = function (num) {
  num = 20 ;
 for (let x = 0; x <= num; x++) {
-    if (x % 3 == 0) {
+    if (x % 3 == 0 && x % 5 == 0) {
         console.log("Fizz");
     } else if (x % 5 == 0) {
         console.log("Buzz");
-    } else if (x % 3 == 0 && x % 5 == 0) {
+    } else if (x % 3 == 0 ) {
         console.log("FizzBuzz");
     } else {
         console.log(x);
